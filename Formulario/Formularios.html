@@ -1,0 +1,130 @@
+<!DOCTYPE>
+<html lang = "pt-br"> <!-- Definir linguagem 
+em PortuguêS Brasil--> 
+<head> <!--Inicio/Cabeçalho-->
+	<meta charset = "UTF-8"/>
+	<meta http-equiv="refresh" content="1">
+	<title>
+	Atividade 04
+	</title>
+	<style>
+	body{
+	 background-color: #B0E0E6;
+	 }
+	table{
+	padding: 10px;
+	background-color:#FFFFFF;
+	box-shadow:0px 0px 5px #000000;
+	border-radius: 5px;
+	}
+	input{
+	padding:5px;
+	}
+	input[type="submit"]{
+	 background-color: ;
+	 border: none;
+	 height:30px;
+	 width:49%;
+	 }
+	 input[type="submit"]:hover{
+	 background-color: #ADD8E6;
+	 text-decoration:underline;
+	 }
+	input[type="reset"]{
+	 background-color: ;
+	 border: none;
+	 height:30px;
+	 width:49%;
+	 }
+	 textarea{
+	 width: 100%;
+	 }
+	input[type="reset"]:hover{
+	 background-color: #ADD8E6;
+	 text-decoration:underline;
+	 }	 
+	</style>
+	</head>
+	<body> 
+	<form method="get" action="cadastrar.html" >
+	<table align="center" >
+<tr>
+<td colspan="2" align="center"><b>- F O R M U L Á R I O -</b></td>
+</tr>
+
+<tr>
+<td>Nome:.</td>
+<td><input type="text" name="nome" title="Informe seu nome completo"></td>
+</tr>
+
+<tr>
+<td>E-mail:.</td>
+<td><input type="email" name="email" title="Informe seu e-mail"></td>
+</tr>
+
+<tr>
+<td>Idade:.</td>
+<td><input type="number" min="18" max="100" title="Informe sua idade"></td>
+</tr>
+
+<tr>
+<td>Senha:.</td>
+<td><input type="password"  title="Informe sua senha"></td>
+</tr>
+
+<tr>
+<td>Sexo:.</td>
+<td><input type="radio" name="sexo" value="Masculino" checked>Masculino <br>
+<input type="radio" name="sexo" value="Feminino">Feminino <br>
+<input type="radio" name="sexo" value="Outros" >Outros</td>
+</tr>
+
+<tr>
+<td>Observação:.</td>
+<td><textarea rows="4"></textarea></td>
+</tr>
+
+<tr>
+<td>País:.</td>
+<td><select>
+<option value="Brasil">Brasil</option>
+ </select></td>
+</tr>
+
+<tr>
+<td>Estado:.</td>
+<td> <select>
+<option value="CE">CE</option>
+<option value="PI">PI</option>
+<option value="MA">MA</option>
+<option value="BH">BH</option>
+</select></td>
+</tr>
+
+<tr>
+<td>Permissão:.</td>
+<td><input type="checkbox" name="permissao" value="Admin">Admin<br>
+<input type="checkbox" name="permissao" value="User">User<br>
+<input type="checkbox" name="permissao" value="Guest" >Guest</td>
+</tr>
+
+<tr>
+<td>Data:.</td><td>
+<input type="date" name="data" title="escolha uma data">
+</td></tr>
+
+<tr>
+<td>COD</td><td>
+<input type="hidden" name="oculto" value="COD 127">
+</td></tr>
+
+<tr>
+<td colspan="2" align="center"> 
+<input type="submit" value="Salvar" />
+<input type="reset" value="Cancelar" />
+</td>
+</tr>
+	</table>
+	</form>
+	</body>
+</html>
