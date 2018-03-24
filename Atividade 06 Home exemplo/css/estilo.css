@@ -1,0 +1,62 @@
+@charset "utf-8";
+/* CSS Document */
+body,ul{padding: 0; margin: 0; list-style: none;}
+
+body{background: #000000;}
+
+#geral{overflow: hidden;}
+#geral #topo{width: 1018px; margin: 0 auto; margin-top: 30px;}
+
+#geral #topo #logo,menutopo{float: left;}
+#geral #topo #logo{margin-right: 265px;width: 400px;}
+#geral #topo #logo a img{border: 0;}
+
+#geral #topo #menutopo{overflow: hidden; width: 352.2px;}
+#geral #topo #menutopo li{float: left; padding: 10px;}
+#geral #topo #menutopo li:hover{background: #171717;}
+
+
+#geral #banner{width: 1018px; height: 498px; margin: 0 auto; overflow: hidden; background: url(../images/bg-featured.jpg) no-repeat center; margin-top: 5px;}
+#geral #banner #infobanner{float: right; color: #fff; width: 450px;}
+
+#geral #barrameio{height: 51px; background: #474747; text-align: center; padding: 15px 0 0 0;}
+
+#geral #fundoconteudo #conteudo,box{width: 1018px; margin: 0 auto;}
+#geral #fundoconteudo #conteudo{overflow: hidden;}
+#geral #fundoconteudo #conteudo #box{overflow: hidden;padding-top: 20px 0 20px 0; color: #fff;}
+#geral #fundoconteudo #conteudo #box #boxa, #boxb, #boxc{width: 305px; height: 315px; float: left;}
+#geral #fundoconteudo #conteudo #box #boxa, #boxb{margin-right: 49px;}
+
+#geral #fundoconteudo{overflow: hidden; background: #323232;}
+
+
+
+
+
+
+#rodape{overflow: hidden; width: 1018px; margin: 0 auto; margin-top: 40px; margin-bottom: 40px;}
+
+#rodape #infos {width: 815px; }
+#rodape #social{width: 200px; overflow: hidden;}
+
+#rodape #infos,#social{float: left;}
+
+#rodape #social li a{display: block; width: 35px; height: 25px; float: left; background: url(../images/icons.png) no-repeat; margin: 5px;}
+#rodape #social li #face{background-position: 0 0;}
+#rodape #social li #twitter{background-position: 0 -35px;}
+#rodape #social li #vimeo{background-position: 0 -70px;}
+#rodape #social li #google{background-position: 0 -105px;}
+
+
+
+#rodape #infos #menurodape li{float: left; padding: 5px;}
+#rodape #infos #menurodape li:hover{background: #171717;}
+
+
+
+
+.fontBranco16{font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif"; font-size: 16px; color: #fff;}
+
+.menu:link{font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif"; color: #666666; text-decoration: none; font-size: 20px;}
+.menu:visited{font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif"; color: #666666; text-decoration: none;font-size: 20px;}
+.menu:hover{font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif"; color: #666666; text-decoration: underline;font-size: 20px;}

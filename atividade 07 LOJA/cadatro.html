@@ -1,0 +1,83 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="icon" href="img/logo.png">
+
+<title>SALE - Peças e Acessórios</title>
+<link href="estilos/layout.css" rel="stylesheet" type="text/css">
+
+<link href="estilos/caduser.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+	<header class="topo"> 
+	<div class="logcad">
+	Bem vindo, faça <a href="login.html">login</a> ou <a href="cadatro.html">Cadastre-se.</a> Minha conta
+	</div>
+	
+	<img src="img/logo.png" class="logo">
+	</header>
+	<nav class="menu"><ul>
+		<li><a href="index.html">HOME</a></li>
+		<li><a href="login.html">LOGIN</a></li>
+		<li><a href="cadatro.html">CADASTRE-SE</a></li>
+		<li><input class="src" type="search" placeholder="Faça Sua Busca"> <input type="submit" value="Buscar" class="btn"></li>
+	</ul></nav>
+	
+	<article class="corpo">
+	<form method="post" id="formulario" action="#">
+		<fieldset class="fieldPai">
+			<legend>Cadastro de Usuário</legend>
+			
+			<fieldset><legend>Dados Usuario</legend>
+			<label for="cNome">Nome:</label><br>
+			<input type="text" id="cNome" placeholder="Nome" class="input" required>
+			<br>
+			<label for="cSNome">Sobrenome:</label><br>
+			<input type="text" id="cSNome" placeholder="Sobrenome" class="input" required>
+			<br>
+			<label for="cEmail">E-Mail:</label><br>
+			<input type="email" id="cEmail" placeholder="E-mail" class="input" required>
+			<br>
+			<label for="cTel">Telefone</label><br>
+			<input type="tel" id="cTel" placeholder="(XX) X.XXXX-XXXX" class="input" required>
+			<br>
+			<label for="cData">Data Nascimento</label><br>
+			<input type="date" id="cData" required>
+	
+			</fieldset>
+			
+			<fieldset><legend>Sexo</legend>
+			
+			<input type="radio" id="cMasc" name="sexo" required><label for="cMasc">Masculino</label>
+			<br>
+			
+			<input type="radio" id="cFem" name="sexo" required><label for="cFem">Feminino</label>
+			</fieldset>
+			
+			<fieldset><legend>Endereço</legend>
+			
+			<label for="cRua">Rua:</label><br>
+			<input type="text" id="cRua" placeholder="Nome da Rua" class="input" required>
+			<br>
+			<label for="cNum">Numero:</label><br>
+			<input type="number" id="cNum" placeholder="Numero" min="1" max="9999" class="input" required>
+			<br>
+			<label for="cBairro">Bairro:</label><br>
+			<input type="text" id="cBairro" placeholder="Bairro" class="input" required>
+			</fieldset>
+			
+			<button type="submit" class="btn">CADASTRAR</button>
+				
+	
+		</fieldset>
+		</form>
+	</article>
+
+<footer class="rodape">
+SALE - Peças e Acessórios<br>
+63660-000, Centro, Tauá - CE<br>
+(88) 9.9999-9999
+</footer>
+</body>
+</html>

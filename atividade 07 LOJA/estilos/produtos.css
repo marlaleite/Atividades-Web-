@@ -1,0 +1,44 @@
+@charset "utf-8";
+
+.publicidade{position: absolute;background-color: #D0EFFC;height: 780px; width: 300px;right: 5px;top: 181px;}
+legend{text-transform: uppercase; text-align: center; padding-top: 15px; font-weight: bold;}
+figure{text-align: center;}
+
+.produtos img{box-shadow: 0px 0px 6px 6px #C1C1C1;height: 225px; float: left;margin: 10px; text-align: center;}
+
+#l01{ position: absolute;  left: 100px; top: 200px;}
+
+#l02{position: absolute;  left: 340px; top: 200px;}
+
+#l03{position: absolute;  left: 590px; top: 200px;}
+
+#l04{ position: absolute;  left: 100px; top: 440px;}
+
+#l05{position: absolute;  left: 340px; top: 440px;}
+
+#l06{position: absolute;  left: 590px; top: 440px;}
+
+#l07{ position: absolute;  left: 100px; top: 690px;}
+
+#l08{position: absolute;  left: 340px; top: 690px;}
+
+#l09{position: absolute;  left: 590px; top: 690px;}
+
+.menulateral{position: absolute; background-color: #36A9AB;height: 780px; width: 200px;left: 10px;top: 181px}
+.menulateral ul{list-style: none; text-transform: uppercase; padding: 0;}
+.menulateral ul li{ margin: 5px;  padding: 10px; text-align: center; background-color: #007C7E; color: #FFFFFF;}
+.menulateral ul li:hover{ margin: 5px;  padding: 10px; text-align: center; background-color: #00CED1; color: #002D5E;}		
+.menulateral ul li a{text-decoration: none; color: #FFFFFF;}
+.menulateral ul li a:hover{ text-decoration: none; color: #002D5E;}
+
+.corpo{ height: 780px;  position: absolute; top: 181px; width: 831px; left:210px;}
+
+.rodape{background-color: #000000; color:#FFFFFF; position: absolute; top: 961px; width: 79%; padding-left: 20%;  padding-top: 50px; padding-bottom: 50px;}
+
+.conteiner{	background-color: aqua; height: auto; width: auto; border:solid 1px #B80003;}
+
+
+button{margin-bottom: 20px; width: 120px; height: 30px; border: none; background-color: #00A3FF;}
+
+button:hover{box-shadow: 0px 0px 5px 1px #00A3FF; color: #FFFFFF;}
+

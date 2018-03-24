@@ -1,0 +1,18 @@
+@charset "utf-8";
+
+.logo{max-height: 100px;max-width: 400px;height: 100px;width: 350px;position: absolute;left: 20%; padding-top: 5px;}
+
+.logcad{padding-top: 10px; padding-right: 20px}
+
+.topo{background-color: #FFFFFF; position: absolute; top: 0; width: 98.8%; height: 150px;text-align: right; border: #D74C4E solid 1px}
+
+.menu{background-color: #922527; position: absolute; top: 150px; width: 99%;}
+.menu ul{text-align: center; list-style: none; padding: 0px; margin: 0px; background-color:#00CED1;}
+.menu ul li{ display: inline;}
+.menu ul li a{padding: 5px 15px;display: inline-block;background-color: #00CED1;color: #333;text-decoration: none;border-bottom: 3px solid #007C7E;}
+.menu ul li a:hover{background-color: #007C7E;border-bottom: 3pX solid #064D4E;}
+
+.src{border: none; height: 25px; width: 200px; padding-left: 10px; margin-left: 20px;}
+
+.btn{border:none; height: 25px;background-color: #00A3FF;}
+.btn:hover{box-shadow: 0px 0px 5px 1px #00A3FF; color: #FFFFFF}
