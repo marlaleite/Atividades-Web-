@@ -1,0 +1,19 @@
+#listcli{ background-color:#eee; width: 854px; float: left;}
+table, td, tr, th{border:1px solid;border-collapse: collapse;padding: 2.5px;}
+table{ width: 99%; margin-top: 10px; margin-bottom: 10px;}
+
+@media screen and (min-width: 0px) {
+#listcli{ background-color:#eee; width: 100%; float: left;}
+table{width: 98%; font-size: 10px;}
+}
+
+@media screen and (min-width: 720px) {
+#listcli{ background-color:#eee; width: 600px; float: left;}
+table{width: 98%; font-size: 12px;}
+
+}
+
+@media screen and (min-width: 1024px) {
+#listcli{ background-color:#eee; width: 854px;}
+table{width: 98%; font-size: 16px;}
+}

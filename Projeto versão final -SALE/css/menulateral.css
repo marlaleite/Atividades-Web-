@@ -1,0 +1,17 @@
+@media screen and (min-width: 0px) {
+	#geral #menulateral{display: none;}
+}
+@media screen and (min-width: 720px) {
+	#geral #menulateral{display: block; float: left;}
+	#geral #menulateral li{background-color: #dfdfdf; width: 90px; margin-left:0px; text-align: left;padding: 10px; border-right: 10px solid #dfdfdf;}
+	#geral #menulateral ul li:hover{background-color: #0187B0; color:#fff; border-right: 10px solid #00C3FF;}
+	#geral #menulateral a{color: #000;text-decoration: none;font-size: 16px;}
+}
+@media screen and (min-width: 1024px) {
+	
+	#geral #menulateral{display: block; float: left;}
+	#geral #menulateral li{background-color: #dfdfdf; width: 140px; margin-left:0px; text-align: left;padding: 10px; border-right: 10px solid #dfdfdf;}
+	#geral #menulateral ul li:hover{background-color: #0187B0;color: #fff;}
+	#geral #menulateral a{color: #000;text-decoration: none; font-size: 16px;}
+	
+}

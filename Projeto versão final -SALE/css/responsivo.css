@@ -1,0 +1,74 @@
+@charset "utf-8";
+*{margin: 0 auto; padding: 0; list-style: none;}
+#rodape a{text-decoration: none;}
+
+@media screen and (min-width: 0px) {
+	#topo{height: 200px; overflow: hidden; background-color: #00C3FF;}
+	#rodape{height: 100%; overflow: hidden; background-color: #00C3FF;text-align: center; padding: 50px 0;}
+
+	#topo #logomarca{height: 100%;}
+	#topo #logomarca img{height: 70px; display: block; align-items: center; padding-top: 10px;}
+
+	#geral #topo #menu #menutopo{overflow: hidden;}
+	#geral #topo #menu #menutopo{display: block;}
+	#geral #topo #menu #menutopo li{background-color: #009CCC; width: 100%; margin-left:0px; text-align: center;padding: 10px;}
+	#geral #topo #menu #menutopo ul li:hover{background-color: #0187B0;}
+	#geral #topo #menu #menutopo a{ text-decoration: none; color: #fff;}
+	#geral #topo #menu #menutopo a:hover{ text-decoration: underline;}
+	
+	#pub {display: none;}
+	
+	#produtos h2{text-align: center; margin: 10px 0;}
+	#produtos{background-color: #eeeeee;}
+	.corpo h2{text-align: center; margin: 10px 0;}
+	.corpo{background-color:#eeeeee;}
+	.arealogin{background-color: #eeeeee;}
+
+
+@media screen and (min-width: 720px) {
+	#geral{width: 720px;}
+	#geral{background-color: #eeeeee;}
+	#rodape{width: 100%; overflow: hidden; background-color: #00C3FF;text-align: center; padding: 50px 0;}
+	
+	#topo{background-color: #00C3FF; width:720px;}
+	#topo #logomarca{height: 100%;}
+	#topo #logomarca img{height: 150px; display: block; align-items: center; padding-top: 10px;}
+
+	#geral #topo #menu #menutopo{margin: 0 auto; width: 720%;}
+	#geral #topo #menu #menutopo{overflow: hidden;background-color: #009CCC; width: 150%;}
+	#geral #topo #menu #menutopo li{float: left; padding: 5px; width: 150px; text-align: center;}
+	#geral #topo #menu #menutopo ul li:hover{background-color: #0187B0;}
+	#geral #topo #menu #menutopo li a{ text-decoration: none; color: #ffffff;}
+	
+	#pub {display: none;}
+
+	#produtos{ background-color:#eeeeee; width: 600px; float: left;}
+	#produtos h2{text-align: center; margin: 10px 0;}
+	.corpo{background-color:#eeeeee; width: 600px; float: left;}
+	.arealogin{background-color: #eeeeee;}
+	
+}
+@media screen and (min-width: 1024px) {
+	#geral{width: 1024px;}
+	#geral{background-color: #eeeeee;}
+	#topo{background-color: #00C3FF; width:1024px;}
+	#topo #logomarca{height: 100%;}
+	#topo #logomarca img{height: 150px; display: block; align-items: center; padding-top: 10px;}
+
+	#rodape{width: 100%; overflow: hidden; background-color: #00C3FF;text-align: center; padding: 50px 0;}
+
+	#geral #topo #menu #menutopo{margin: 0 auto; width: 1080px;}
+	#geral #topo #menu #menutopo{overflow: hidden;background-color: #009CCC; width: 150%;}
+	#geral #topo #menu #menutopo li{float: left; padding: 5px; width: 150px; text-align: center;}
+	#geral #topo #menu #menutopo ul li:hover{background-color: #0187B0;}
+	#geral #topo #menu #menutopo li a{ text-decoration: none; color: #ffffff;}
+	
+	#pub {display: block; text-align: center; font-weight: bold; padding-top: 5px;}
+	#pub img{width: 100px; display: block; padding-top: 5px; margin-right: 13px; margin-top: 5px;}
+
+	#produtos{ background-color:#eeeeee; width: 724px; float: left;}
+	#produtos h2{text-align: center; margin: 10px 0;}
+	.corpo{ background-color:#eeeeee; width: 724px; float: left;}
+	.arealogin{background-color: #eeeeee;}
+	
+}

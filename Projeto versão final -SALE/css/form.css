@@ -1,0 +1,10 @@
+#cSenha, #cSenha2, #cNome, #cSNome, #cEmail, #cTel, #cData, #cRua, #cNum, #cBairro{height: 30px; width: 98.5%;padding: 2.5px;color: #0187B0;}
+fieldset{padding: 2px; border-color:#0187B0; border:1px solid #0187B0;color: #0187B0;}
+button{height: 40px; width: 100%;margin: 5px 0px; border: none; background-color: #009CCC;color:#ffffff;}
+button:hover{background-color:#0187B0;text-decoration: underline;}
+#fieldPai{text-transform: uppercase;}
+
+@media screen and (min-width: 0px) {
+#cSenha, #cSenha2, #cNome, #cSNome, #cEmail, #cTel, #cData, #cRua, #cNum, #cBairro{width: 98%;}
+
+}
